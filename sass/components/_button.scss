@@ -5,10 +5,31 @@
   background-color: #4fa55f;
   border: none;
   border-radius: 6px;
+  font-weight: 600;
+  font-size: 18px;
 }
 .hero_button {
   margin-top: 20px;
 }
 .event_button {
   margin-top: 57px;
+}
+.by_button {
+  margin-top: 10px;
+  width: 104px;
+  height: 37px;
+  background-color: #2d6d4c;
+}
+.subscribe_button {
+  margin-top: 12px;
+  background-color: #f3bc24;
+}
+
+.about_button {
+  margin-top: 22px;
+}
+
+.feedback_submit {
+  margin-top: 12px;
+  background-color: #f3bc24;
 }
