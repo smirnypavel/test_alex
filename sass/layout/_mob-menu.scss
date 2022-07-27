@@ -1,10 +1,11 @@
-.mob-menu {
+.mob_menu {
+  display: none;
   width: 100vw;
   height: 100vh;
   text-align: center;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 500;
   background-color: #f5f5f5;
 }
 .mob__menu-list {
@@ -12,8 +13,11 @@
   margin-bottom: 0;
   font-weight: 600;
 }
+.mob_menu_item:not(:first-child) {
+  margin-top: 22px;
+}
 
-.counselling-btn {
+.counselling_button {
   margin-top: 20px;
   background-color: transparent;
   width: 224px;
@@ -24,20 +28,19 @@
   border: 1px solid rgba(243, 188, 36, 1);
   font-weight: 600;
 }
-.mob-menu-tell {
+.mob_menu_tell {
   font-weight: 500;
+  color: #0f2222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.mob__menu-item {
-  & + & {
-    margin-top: 22px;
-  }
+.phone_icon {
+  width: 22px;
+  height: 22px;
 }
 .mob-menu-links {
   margin-top: 39px;
-}
-.mob__menu-social-list {
-  margin-top: 20px;
-  margin-bottom: 0;
 }
 
 .menu-mob-close-btn {
@@ -72,4 +75,9 @@
 }
 .login-name {
   margin-left: 10px;
+}
+.untitled_icon {
+  margin-top: 22px;
+  width: 29px;
+  height: 20px;
 }
