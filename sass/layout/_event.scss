@@ -1,0 +1,65 @@
+.event {
+  margin-top: 51px;
+}
+.event_title {
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+.event_text {
+  color: #245050;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.event__card {
+  margin-top: 73px;
+  width: 324px;
+  height: 267px;
+  background-color: #fafafa;
+  padding: 10px;
+}
+.event__card_info {
+  display: flex;
+}
+.event__card_date {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7fc6a6;
+}
+.event__card_reg {
+  font-weight: 500;
+  font-size: 14px;
+  color: #858585;
+  position: relative;
+  padding-left: 28px;
+}
+.event__card_reg::after {
+  content: "";
+  background-color: #f3bc24;
+  border: none;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  right: 0;
+  border-radius: 100%;
+  left: 14px;
+  top: 6px;
+}
+.event__card_title {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #4d4d4d;
+}
+.event__card_text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #245050;
+}
+.event__card_hashtag {
+  margin-top: 12px;
+  font-size: 11px;
+  color: #c0c0c0;
+}

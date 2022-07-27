@@ -1,0 +1,75 @@
+.mob-menu {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: #f5f5f5;
+}
+.mob__menu-list {
+  margin-top: 80px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.counselling-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  width: 224px;
+  height: 44px;
+  border-radius: 6px;
+  font-size: 17px;
+  color: rgba(243, 188, 36, 1);
+  border: 1px solid rgba(243, 188, 36, 1);
+  font-weight: 600;
+}
+.mob-menu-tell {
+  font-weight: 500;
+}
+.mob__menu-item {
+  & + & {
+    margin-top: 22px;
+  }
+}
+.mob-menu-links {
+  margin-top: 39px;
+}
+.mob__menu-social-list {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.menu-mob-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.close-icon {
+  fill: #2d6d4c;
+  width: 18px;
+  height: 18px;
+}
+.sing-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+.sing-icon {
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+}
+.login-name {
+  margin-left: 10px;
+}

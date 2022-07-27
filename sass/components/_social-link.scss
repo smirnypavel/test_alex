@@ -1,0 +1,33 @@
+.mob__menu-social-list {
+  display: flex;
+  justify-content: center;
+}
+.social__link-item {
+  width: 32px;
+  height: 32px;
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff9f0;
+}
+.social-icon {
+  fill: #f3bc24;
+  width: 16px;
+  height: 16px;
+}
+
+.untitled {
+  margin-top: 22px;
+  width: 29px;
+  height: 20px;
+  fill: #0f2222;
+}
